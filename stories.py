@@ -23,7 +23,7 @@ class Story:
 
         self.prompts = words
         self.template = text
-        self.description = description if description else text
+        self.description = description if description else words
 
     def generate(self, answers):
         """Substitute answers into text."""
@@ -31,6 +31,8 @@ class Story:
         text = self.template
 
         for (key, val) in answers.items():
+            if val == '':
+                continue
             text = text.replace("{" + key + "}", val)
 
         return text

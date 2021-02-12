@@ -2,10 +2,10 @@
 {%block title%}Choose Your Adventure!{%endblock%}
 {%block content%}
 <h1>Choose An Adventure!</h1>
-<ul>
+<ul class="story_list">
     {% for i in range(story_list.__len__()) %}
-    <li id="{{i}}">
-        <a href="story/{{i}}">{{story_list[i].description}}</a>
+    <li id="story{{i}}" class="story_option">
+        "{{story_list[i].description}}" - The Author <a class="story_link" href="story/{{i}}">Start Now!</a>
     </li>
     {% endfor %}
 </ul>

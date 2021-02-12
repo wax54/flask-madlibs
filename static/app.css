@@ -1,3 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0px;
+    padding:0px;
+}
+#main{
+    text-align: center;
+    margin: 10px;
+}
 .form_input{
     display:block;
     padding: 10px;
@@ -5,4 +15,46 @@
 }
 .form_input input{
     font-size: large;
+}
+
+.story_list{
+    font-size: 2rem;
+    list-style: none;
+}
+.story_option{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: tan;
+}
+.story_link{
+    text-decoration: none;
+    padding: 8px;
+    border-radius:10px;
+    color:#554;
+    background-color: #ddd;
+}
+.story_link:hover{
+    background-color: #554;
+    color: #ddd;
+}
+
+
+.navbar{
+    display: block;
+    padding: 20px;
+    background-color: #ddd;
+    color:#554;
+
+}
+.navbar a{
+    text-decoration: none;
+    padding: 4px;
+    border-radius:5px;
+    color:#554;
+    background-color: #ddd;
+}
+.navbar a:hover{
+    background-color: #554;
+    color: #ddd;
 }
