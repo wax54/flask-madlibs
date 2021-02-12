@@ -38,8 +38,12 @@ class Story:
 # Here's a story to get you started
 
 
-story = Story(
+story_list = [
+    Story(
     ["place", "noun", "verb", "adjective", "plural_noun"],
     """Once upon a time in a long-ago {place}, there lived a
-       large {adjective} {noun}. It loved to {verb} {plural_noun}."""
-)
+    large {adjective} {noun}. It loved to {verb} {plural_noun}."""),
+    Story(
+    ["noun"],
+    """A nice Succulent {noun} is the best thing in the world.""")      
+]

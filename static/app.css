@@ -1,0 +1,8 @@
+.form_input{
+    display:block;
+    padding: 10px;
+    font-size: x-large;
+}
+.form_input input{
+    font-size: large;
+}
