@@ -18,6 +18,6 @@ def story_result(story_id):
     story = story_list[story_id]
     #turn the array of tuples into a dict for Story.generate()
     ans = {prompt:answer for (prompt, answer) in request.args.items()}
-    result = story.generate(ans).upper()
-    print(result, story)
+    result = story.generate(ans)
+
     return render('story_result.html', story=result)

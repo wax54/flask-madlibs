@@ -50,5 +50,12 @@ story_list = [
     Story(
         ["noun"],
         """A nice Succulent {noun} is the best thing in the world.""",
-        description="A Thrilling Tale of a joy")
+        description="A Thrilling Tale of a joy"),
+
+    Story(
+        ["adjective", "plural verb", "plural noun", "noun", "part of the body"],
+        """The force is a mystical, {adjective} power. As Jedi Master Obi-Wan kenobi once said, 
+        "The Force is an energy field, created by all living {plural noun}, that surround us, 
+        penetrates us, and {verb} the universe together." """,
+        description="The Power Of The Force")
 ]

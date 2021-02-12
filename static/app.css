@@ -58,3 +58,10 @@ body{
     background-color: #554;
     color: #ddd;
 }
+
+.story_result{
+    padding: 30px;
+    font-size: 3rem;
+    background-color: #ddd;
+    color: #444;
+}
